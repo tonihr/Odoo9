@@ -226,8 +226,8 @@
         <div class="container">
             <div class="col-md-12 mt16 mb16">
                 <div class="pull-right">
-                    <a href="/support/ticket/submit">Submit a Ticket</a>
                     <t t-if="request.env.user.partner_id.name != 'Public user'">
+			  <a href="/support/ticket/submit">Submit a Ticket</a>
                         | <a href="/support/ticket/view">My Tickets</a>
                     </t>
                 </div>
